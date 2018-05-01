@@ -1,0 +1,8 @@
+{
+  "name": "chequemate",
+  "app_id": "e0402ab6",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
