@@ -1,12 +1,9 @@
 import { Component, ViewChild } from '@angular/core';
-import { Platform, NavController, Nav } from 'ionic-angular';
+import { Platform, Nav } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-
-//import { Tab2Page } from './../pages/tab2/tab2';
-//import { Tab1Page } from './../pages/tab1/tab1';
+//////
 import { TabsPage } from './../pages/tabs/tabs';
-//import { SpecialPage } from '../pages/special/special';
 import { AccountsPage } from './../pages/accounts/accounts';
 import { AlertsPage } from './../pages/alerts/alerts';
 import { AtmPage } from './../pages/atm/atm';

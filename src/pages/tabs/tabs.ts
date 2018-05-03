@@ -1,12 +1,6 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
-
-//import { Tab2Page } from './../pages/tab2/tab2';
-//import { Tab1Page } from './../pages/tab1/tab1';
-
-//import { SpecialPage } from '../pages/special/special';
-import { AccountsPage } from './../accounts/accounts';
-import { AlertsPage } from './../alerts/alerts';
+import { NavParams } from 'ionic-angular';
+////
 import { AtmPage } from './../atm/atm';
 import { DepositPage } from './../deposit/deposit';
 import { TransfersPage } from './../transfers/transfers';

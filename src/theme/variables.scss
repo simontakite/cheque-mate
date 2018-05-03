@@ -33,14 +33,28 @@ $app-direction: ltr;
 // colors so you can add, rename and remove colors as needed.
 // The "primary" color is the only required color in the map.
 
-$colors: (
-  primary:    #488aff,
+/* $colors: (
+  //primary:    #488aff,
+  primary: #2196F3,
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
   dark:       #222
-);
+); */
 
+$colors: (
+    primary:   (base: #eeae15, contrast:#000),
+    secondary:  (base: #03A9F4, contrast: #000),
+    danger:     #f43e00,
+    light:      (base:#bdc3c7, contrast:#000),
+    dark:       (base:#d35400, contrast:#000),
+    alert:      #F39C12,
+    favorite:   #69BB7B,
+    twitter:    #1da1f4,
+    google:     #dc4a38,
+    vimeo:      #23b6ea,
+    facebook:   #3b5998
+  );
 
 // App iOS Variables
 // --------------------------------------------------
@@ -70,8 +84,8 @@ $colors: (
 // so that the above variables are used and Ionic's
 // default are overridden.
 
-@import "ionic.theme.default";
-
+//@import "ionic.theme.default";
+  @import "ionic.theme.dark";
 
 // Ionicons
 // --------------------------------------------------
@@ -84,5 +98,6 @@ $colors: (
 // Fonts
 // --------------------------------------------------
 
-@import "roboto";
-@import "noto-sans";
+//@import "roboto";
+//@import "noto-sans";
+
